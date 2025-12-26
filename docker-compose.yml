@@ -1,0 +1,17 @@
+services:
+  n8n:
+    image: n8nio/n8n
+    container_name: n8n-server
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./n8n-data:/home/node/.n8n
+    networks:
+      - npm-network
+    expose:
+      - "5678"  # hanya expose ke internal Docker network
+
+networks:
+  npm-network:
+    external: true

@@ -1,0 +1,2 @@
+{"__type":"$$EventMessageAudit","id":"8e2e9c96-dd64-4587-96c9-4f8aefda70fd","ts":"2025-12-26T15:55:21.385+00:00","eventName":"n8n.audit.workflow.created","message":"n8n.audit.workflow.created","payload":{"userId":"1a462ba4-97a8-4405-a24b-e1693a00b43f","_email":"irdaily97@gmail.com","_firstName":"Ilham","_lastName":"ready","globalRole":"global:owner","workflowId":"TL3b537xO1GnefRb","workflowName":"UGC Automate"}}
+{"__type":"$$EventMessageConfirm","confirm":"8e2e9c96-dd64-4587-96c9-4f8aefda70fd","ts":"2025-12-26T15:55:21.388+00:00","source":{"id":"0","name":"eventBus"}}
